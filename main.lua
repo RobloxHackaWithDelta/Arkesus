@@ -59,7 +59,7 @@ local framework, endpoints do
 		if _G.Once then return end _G.Once = true
 		framework = require(game:GetService("StarterGui"):WaitForChild("Wave"):WaitForChild("WaveFramework"))
 	else
-		framework = loadstring(arceus.WHWKIIIIWIIOSU(game:HttpGet(`https://raw.githubusercontent.com/SPDM-Team/Arceus-X-NEO-public/refs/heads/main/axv5/Xploit-Framework/index.lua`)))()
+		framework = loadstring(arceus.EOWOWQPQPPALSKSNX(game:HttpGet(`https://raw.githubusercontent.com/SPDM-Team/Arceus-X-NEO-public/refs/heads/main/axv5/Xploit-Framework/index.lua`)))()
 	end
 	
 	if not axinclude and not framework.protected:IsStudio() then
